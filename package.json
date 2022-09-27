@@ -1,0 +1,38 @@
+{
+  "name": "<NAME>",
+  "version": "<VERSION>",
+  "private": true,
+  "license": "<LICENSE>",
+  "author": {
+    "name": "<AUTHOR_NAME>",
+    "email": "<AUTHOR_EMAIL>"
+  },
+  "scripts": {
+    "changeset": "changeset",
+    "prepublish": "pnpm -r prepublish",
+    "prerelease": "changeset version",
+    "release": "changeset publish"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@changesets/changelog-github": "0.4.6",
+    "@changesets/cli": "2.24.4",
+    "@types/node": "18.7.13",
+    "@typescript-eslint/eslint-plugin": "5.36.2",
+    "@typescript-eslint/parser": "5.36.2",
+    "eslint": "8.23.1",
+    "eslint-config-standard": "17.0.0",
+    "eslint-define-config": "1.7.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.2.5",
+    "eslint-plugin-promise": "6.0.1",
+    "eslint-plugin-unicorn": "43.0.2",
+    "typescript": "4.8.3"
+  },
+  "peerDependencies": {},
+  "packageManager": "pnpm@7.12.2",
+  "engines": {
+    "node": "18.9.0",
+    "pnpm": "7.12.2"
+  }
+}
